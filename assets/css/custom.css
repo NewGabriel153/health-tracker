@@ -41,7 +41,6 @@ h3.text-selection{
     overflow: hidden;
     height: 130px; 
     background-color: #556579;
-    /* border: 2px solid rgba(255, 0, 0, .0);     */
 }
 
 .selection:hover{
@@ -120,4 +119,29 @@ h3.text-selection{
     background-color: #E2C47C;   
     width: 50%;
     height: 100%;
+}
+
+.step-6 .progress-bar-line-fill{
+    background-color: #E2C47C;   
+    width: 66.6666667%;
+    height: 100%;
+}
+
+.range-label{
+    width: 49%;
+}
+
+
+.halfway-skin{
+    max-height: 350px;
+}
+
+.moisturize-result-container{
+    overflow: hidden;
+    height: 130px; 
+    background-color: #556579;
+}
+
+.thank-container{
+    border: 1px solid white;
 }
