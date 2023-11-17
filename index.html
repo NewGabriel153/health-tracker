@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-12 m-0 p-0">
                     <!--Screen 1-->
-                    <div class="row m-0 p-0 steps step-1 d-none">
+                    <div class="row m-0 p-0 steps step-1">
                         <div class="col-md-6 pe-lg-5 pe-3">
                             <h1>
                                 Achieve Perfectly, <i>Youthful Skin</i>
@@ -71,10 +71,10 @@
                         </div>
                     </div>
                     <!--Screen 2-->
-                    <div class="row m-0 p-0 steps step-2">
+                    <div class="row m-0 p-0 steps step-2 d-none">
                         <div class="col-lg-3"></div>
                         <div class="col-6 my-4">
-                            <div class="back-button d-inline py-2 ps-3 pe-2">
+                            <div class="back-button d-inline py-2 ps-3 pe-2" data-step="2">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </div>
                             <div class="progress-bar d-inline">
@@ -192,7 +192,7 @@
                         <div class="col-lg-3"></div>
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6 continue-button d-table my-2" data-step="2">
-                            <div class="d-table-cell align-middle ps-5">                                
+                            <div class="d-table-cell align-middle ps-2">                                
                                 <div class="row p-0 m-0">
                                     <div class="col-10">
                                         <h3>Continue</h3>
@@ -215,7 +215,7 @@
                     <div class="row m-0 p-0 steps step-3 d-none">
                         <div class="col-lg-3"></div>
                         <div class="col-6 my-4">
-                            <div class="back-button d-inline py-2 ps-3 pe-2">
+                            <div class="back-button d-inline py-2 ps-3 pe-2" data-step="3">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </div>
                             <div class="progress-bar d-inline">
@@ -409,7 +409,7 @@
 
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6 continue-button d-table my-2" data-step="3">
-                            <div class="d-table-cell align-middle ps-5">                                
+                            <div class="d-table-cell align-middle ps-2">                                
                                 <div class="row p-0 m-0">
                                     <div class="col-10">
                                         <h3>Continue</h3>
@@ -432,7 +432,7 @@
                     <div class="row m-0 p-0 steps step-4 d-none">
                         <div class="col-lg-3"></div>
                         <div class="col-6 my-4">
-                            <div class="back-button d-inline py-2 ps-3 pe-2">
+                            <div class="back-button d-inline py-2 ps-3 pe-2" data-step="4">
                                 <i class="fa-solid fa-chevron-left"></i>
                             </div>
                             <div class="progress-bar d-inline">
@@ -445,13 +445,169 @@
                         <div class="col-lg-3"></div>
                         <div class="col-lg-3"></div>
                         <div class="col-6 my-4">
-                            <h2>What hydrating ingredients are you interested in?</h2>
+                            <h2>How would you describe your skin?</h2>
                         </div>
                         <div class="col-lg-3"></div>
-
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-3">
+                            <img class="describe-skin" src="assets/images/describe-skin-1.png"/>
+                        </div>
+                        <div class="col-lg-5">
+                            <input type="range" class="form-range" min="0" max="5" value="0" id="describe-skin-range"> 
+                            <div class="range-label d-inline-block">
+                                Normal Skin
+                            </div>
+                            <div class="range-label d-inline-block text-end">
+                                Crepey Skin
+                            </div>
+                            <div class="row p-0 mx-0 my-4">
+                                <div class="col-lg-12 continue-button active d-table my-2" data-step="4">
+                                    <div class="d-table-cell align-middle ps-2">                                
+                                        <div class="row p-0 m-0">
+                                            <div class="col-10">
+                                                <h3>Continue</h3>
+                                            </div>
+                                            <div class="col-2">
+                                                <img class="me-auto" src="assets/images/arrow.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 skip-button d-table my-2" data-step="4">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <h3>Skip</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                    <!--Screen 5-->
+                    <div class="row m-0 p-0 steps step-5 d-none"> 
+                        <div class="col-lg-4">
+                            <img class="halfway-skin" src="assets/images/halfway-woman.gif"/>
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Halfway there!</h3>
+                            <h2 class="mb-4">
+                                Why do people give up protecting and hydrating their skin?
+                            </h2>
+                            <b>The No. 1 reason is using the wrong products that just aren't effective</b>
+                            <p class="my-3">
+                                You'll achieve much more in just a few weeks of starting City Beauty's treatment.
+                            </p>
+                            <p class="my-2">
+                                Our primary goal is to deliver deep, long-lasting hydration that will prevent harsh aging and reduce the appearance of thinning, crepey skin. Visibly achieve healthy, supple skin with us.
+                            </p>
+                            <div class="row p-0 mx-0 my-4">
+                                <div class="col-lg-12 continue-button halfway d-table my-2" data-step="5">
+                                    <div class="d-table-cell align-middle ps-2">                                
+                                        <div class="row p-0 m-0">
+                                            <div class="col-10">
+                                                <h3>Got it</h3>
+                                            </div>
+                                            <div class="col-2">
+                                                <img class="me-auto" src="assets/images/arrow.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 skip-button d-table my-2" data-step="5">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <h3>Skip</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                    <!--screen 6-->
+                    <div class="row m-0 p-0 steps step-6 d-none">
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-6 continue-button d-table my-2" data-step="3">
-                            <div class="d-table-cell align-middle ps-5">                                
+                        <div class="col-6 my-4">
+                            <div class="back-button d-inline py-2 ps-3 pe-2" data-step="6">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="progress-bar d-inline">
+                                <div class="progress-bar-line d-inline-block mx-3">
+                                    <div class="progress-bar-line-fill"></div>
+                                </div>
+                                4/6
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-6 my-4">
+                            <h2>How often do you moisturize your skin?</h2>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 my-2">
+                            <input type="range" class="form-range" min="1" max="10" value="0" id="moisturize-range"> 
+                            <div class="range-label d-inline-block">
+                                Newcomer
+                            </div>
+                            <div class="range-label d-inline-block text-end">
+                                Pro
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 d-table my-2 moisturize-result-container">                            
+                            <div class="d-table-cell align-middle">
+                                <div class="row m-0 p-0">
+                                    <div class="col-10">
+                                        <h3 class="classification newcomer">
+                                            Newcomer
+                                        </h3>
+                                        <h3 class="classification amateur d-none">
+                                            Amateur
+                                        </h3>
+                                        <h3 class="classification pro d-none">
+                                            Pro
+                                        </h3>
+                                    </div>
+                                    <div class="col-2"></div>
+                                    <div class="col-10">
+                                        <p class="description desc-1">
+                                            Whenever I touch my skin it feels flaky, but I leave it alone
+                                        </p>
+                                        <p class="description desc-2 d-none">
+                                            I have applied lotion before to my dry, crepey skin (Rarely)
+                                        </p>
+                                        <p class="description desc-3 d-none">
+                                            I do apply lotion/cream sometimes on my dry skin
+                                        </p>
+                                        <p class="description desc-4 d-none">
+                                            I do apply lotion/creamt to my skin to feel moisturized
+                                        </p>
+                                        <p class="description desc-5 d-none">
+                                            I try to apply lotion/cream, but still not regularly
+                                        </p>
+                                        <p class="description desc-6 d-none">
+                                            I apply lotion/cream fairly regularly, at least once a week
+                                        </p>
+                                        <p class="description desc-7 d-none">
+                                            I apply lotion/cream after every shower consistently for the last 1-3 months
+                                        </p>
+                                        <p class="description desc-8 d-none">
+                                            I'm committed to moisturize my skin whenever I can 
+                                        </p>
+                                        <p class="description desc-9 d-none">
+                                            Oh, trust me. I deeply hydrate my skin, but I want to take it to the next level
+                                        </p>
+                                        <p class="description desc-10 d-none">
+                                            I'm on fire. Deeply hydrating my skin every day is a must to stimulate collagen/elastin
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6 continue-button d-table my-2" data-step="6">
+                            <div class="d-table-cell align-middle ps-2">                                
                                 <div class="row p-0 m-0">
                                     <div class="col-10">
                                         <h3>Continue</h3>
@@ -464,11 +620,21 @@
                         </div>
                         <div class="col-lg-3"></div>
                         <div class="col-lg-3"></div>
-                        <div class="col-lg-6 skip-button d-table my-2" data-step="3">
+                        <div class="col-lg-6 skip-button d-table my-2" data-step="6">
                             <div class="d-table-cell align-middle text-center">
                                 <h3>Skip</h3>
                             </div>
                         </div>
+                    </div>
+                    <!--screen 7-->
+                    <div class="row m-0 p-0 steps step-7 d-none">
+                        <div class="col-lg-3"></div>
+                        <div class="col-6 my-4 thank-container p-3">
+                           <h2>Thanks for sharing!</h2>
+
+                           <p>We've discovered that a lot of people have faced the same setbacks. City Beauty has a clear one-step treatment that is easy to follow with long-term results. In less than two minutes, you will feel better than ever.</p>
+                        </div>
+                        <div class="col-lg-3"></div>
                     </div>
                 </div>
             </div>
