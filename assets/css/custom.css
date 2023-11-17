@@ -1,0 +1,123 @@
+body{
+    background-color: #0C233F;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+}
+
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 46px;
+}
+
+h2{
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 29px;
+}
+
+h3{
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 24px;
+}
+
+h3.text-selection{
+    height: 50px
+}
+
+#disclaimer{
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.selection{
+    overflow: hidden;
+    height: 130px; 
+    background-color: #556579;
+    /* border: 2px solid rgba(255, 0, 0, .0);     */
+}
+
+.selection:hover{
+    background-color: #394A62;
+    cursor: pointer;
+}
+
+.selected{ 
+    border: 2px solid #E2C47C;
+}
+
+.img-container{
+    height: 130px;
+    /* background-image: url('../images/intro-firmer.png');
+    background-position-x: -50px;
+    background-size: auto;
+    background-repeat: no-repeat; */
+}
+
+.selection .img{
+    height: 100%;
+    max-width: 210px;
+    width: 100%;
+}
+
+.checkbox-container{
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+}
+
+.continue-button{
+    background-color: #E2C47C;
+    color: #333333;
+    height: 80px;
+    opacity: .6;
+    cursor: pointer;
+}
+.continue-button.active{
+    opacity: 1;
+}
+
+.skip-button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 80px;
+    cursor: pointer;
+}
+
+.back-button{
+    background-color: #556579;
+    cursor: pointer;
+}
+
+.progress-bar-line{
+    height: 20px;
+    width: 80%;
+    border: 1px solid white;
+    background-color: #556579;
+}
+
+.step-2 .progress-bar-line-fill{
+    background-color: #E2C47C;   
+    width: 16.6666667%;
+    height: 100%;
+}
+
+.step-3 .progress-bar-line-fill{
+    background-color: #E2C47C;   
+    width: 33.3333334%;
+    height: 100%;
+}
+
+.step-4 .progress-bar-line-fill{
+    background-color: #E2C47C;   
+    width: 50%;
+    height: 100%;
+}
